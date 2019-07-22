@@ -7,7 +7,7 @@ object DataFrameCase {
   def main(args: Array[String]): Unit = {
 
     //申请资源
-    //在spark-shell调试不需要这个？
+    //在spark-shell调试不需要这个
     val spark = SparkSession.builder().appName("DataFrameCase").master("local[2]").getOrCreate()
 
     //读取处理

@@ -50,6 +50,25 @@
       <artifactId>hive-jdbc</artifactId>
       <version>1.2.1.spark2</version>
     </dependency>
+    <!--github ipdatabase-->
+    <dependency>
+      <groupId>com.ggstar</groupId>
+      <artifactId>ipdatabase</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <!--github NoClassDefFoundError-->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.14</version>
+    </dependency>
+    <!--github NoClassDefFoundError-->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.14</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

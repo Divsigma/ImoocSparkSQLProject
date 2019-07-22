@@ -6,6 +6,7 @@ object SparkSQLThriftServerApp {
 
   def main(args: Array[String]): Unit = {
 
+    //采用JAVA方式编程
     //1)driver实例化
     Class.forName("org.apache.hive.jdbc.HiveDriver")
 
